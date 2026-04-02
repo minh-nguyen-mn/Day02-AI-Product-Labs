@@ -76,7 +76,7 @@ Liệt kê càng nhiều bài toán tiềm năng càng tốt. **Không filter, k
 
 ## Bước 1.1 — Cá nhân: Liệt kê (12 min)
 
-Dùng **4 Lenses** để quét xung quanh mình. Ghi **ít nhất 8 problems**.
+Dùng **4 Lenses** để quét xung quanh mình. Ghi **ít nhất 5 problems**.
 
 ### 4 Lenses tìm bài toán AI
 
@@ -110,7 +110,7 @@ Dùng **4 Lenses** để quét xung quanh mình. Ghi **ít nhất 8 problems**.
 | ... | | |
 
 > **🤖 AI Tip — Phase 1: Thought Partner nếu bí**
-> **Dùng AI để:** Gợi ý thêm góc nhìn nếu bạn chưa đủ 8 bài toán. **Tự brainstorm trước, AI sau.**
+> **Dùng AI để:** Gợi ý thêm góc nhìn nếu bạn chưa đủ 5 bài toán. **Tự brainstorm trước, AI sau.**
 > **Tool gợi ý:** ChatGPT, Claude, Gemini, Perplexity — tuỳ bạn
 > **Example prompt:** "Tôi là [vai trò] làm trong [lĩnh vực], công việc hàng ngày gồm [liệt kê tasks]. Có những pain point nào mà AI có thể giúp cải thiện?"
 > **Lưu ý:** Prompt này chỉ gợi ý — bạn cần filter lại dựa trên kinh nghiệm thật của mình.
@@ -527,7 +527,7 @@ Nộp **3 phần**:
 
 | # | Deliverable | Ai làm | Mô tả |
 |---|-------------|--------|-------|
-| 1 | **Scan & Filter Log** | Cá nhân | List 8+ problems + 3 Quick Problem Cards + kill rationale |
+| 1 | **Scan & Filter Log** | Cá nhân | List 5+ problems + 3 Quick Problem Cards + kill rationale |
 | 2 | **Problem Deep-Dive** | Nhóm | Current flow (vẽ) + PS 6-field + Metrics + Research + Future flow (vẽ) + AI Fit + Go/Not Yet/No-Go |
 | 3 | **AI Support Log** | Cá nhân | AI giúp gì / sai gì / sửa gì |
 

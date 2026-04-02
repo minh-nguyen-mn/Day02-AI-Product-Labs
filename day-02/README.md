@@ -24,7 +24,7 @@ Hôm nay bạn sẽ tìm và phân tích 1 bài toán AI thật từ công việ
 
 ```
 Phase 0  WORKED EXAMPLE         15 min   Giảng viên demo — bạn xem
-Phase 1  SCAN                   20 min   Cá nhân: liệt kê 8+ bài toán → nhóm: share top 3
+Phase 1  SCAN                   20 min   Cá nhân: liệt kê 5+ bài toán → nhóm: share top 3
 Phase 2  QUICK-ASSESS           40 min   Cá nhân: điền 3 Quick Problem Cards → nhóm: gallery vote
          ─── Break ───          10 min
 Phase 3  PITCH-CHALLENGE-VOTE   30 min   Nhóm pitch + challenge + chọn 1 bài toán
@@ -38,7 +38,7 @@ Phase 6  REFLECTION             10 min   Cá nhân: AI Support Log + reflection
 
 ```
 HoTen-day02.zip
-├── 01-problem-scan.md            ← 8+ bài toán qua 4 Lenses + 3 Quick Cards + kill rationale
+├── 01-problem-scan.md            ← 5+ bài toán qua 4 Lenses + 3 Quick Cards + kill rationale
 ├── 02-deep-dive-report.md        ← Workflow + PS 6-field + metrics + research + AI fit + Go/No-Go
 ├── 03-ai-log.md                  ← AI giúp gì, sai gì, nhóm sửa gì
 ├── 04-workflow-diagram.png/pdf   ← Current-state + future-state flow
