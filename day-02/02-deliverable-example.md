@@ -407,7 +407,7 @@ Bài toán có đủ 4/5 điều kiện. Điều kiện thiếu (dev resource) c
 
 ---
 
-## AI Support Log
+## Reflection Log
 
 Trong quá trình làm lab, tôi đã dùng AI (ChatGPT) ở các bước sau:
 

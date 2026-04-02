@@ -12,7 +12,7 @@
 2. **AI không thay bạn ra quyết định** — AI brainstorm/draft, bạn chọn/sửa/chốt
 3. **"Không cần AI" vẫn là kết luận tốt** — điểm dựa trên chất lượng tư duy, không phải mức phức tạp
 4. **Vẽ trước, viết sau** — flow vẽ tay trên giấy, không phải list text
-5. **Bắt buộc có AI Support Log** — ghi lại AI giúp gì, sai gì, bạn sửa gì
+5. **Bắt buộc có Reflection Log** — ghi lại AI giúp gì, sai gì, bạn sửa gì
 
 ---
 
@@ -65,7 +65,7 @@ Xem file [`02-deliverable-example.md`](02-deliverable-example.md) để đọc l
 > **Tool gợi ý:** Claude, Gemini, ChatGPT, Perplexity, NotebookLM (nếu nhiều tài liệu)
 > **Example prompt:** "Tôi đang nghiên cứu quy trình [tên quy trình] trong ngành [ngành]. Cho tôi 5 pain point phổ biến nhất và số liệu về thời gian/chi phí lãng phí ở mỗi bước."
 > **Lưu ý:** Luôn verify nguồn — AI có thể bịa số liệu. Cross-check với ít nhất 1 nguồn khác.
-> **→ Ghi vào AI Support Log:** AI giúp gì, sai gì, bạn sửa gì
+> **→ Ghi vào Reflection Log:** AI giúp gì, sai gì, bạn sửa gì
 
 ---
 
@@ -114,7 +114,7 @@ Dùng **4 Lenses** để quét xung quanh mình. Ghi **ít nhất 5 problems**.
 > **Tool gợi ý:** ChatGPT, Claude, Gemini, Perplexity — tuỳ bạn
 > **Example prompt:** "Tôi là [vai trò] làm trong [lĩnh vực], công việc hàng ngày gồm [liệt kê tasks]. Có những pain point nào mà AI có thể giúp cải thiện?"
 > **Lưu ý:** Prompt này chỉ gợi ý — bạn cần filter lại dựa trên kinh nghiệm thật của mình.
-> **→ Ghi vào AI Support Log:** AI gợi ý gì, bạn giữ lại bao nhiêu ý?
+> **→ Ghi vào Reflection Log:** AI gợi ý gì, bạn giữ lại bao nhiêu ý?
 
 ## Bước 1.2 — Nhóm: Quick Share (8 min)
 
@@ -283,7 +283,7 @@ Chụp ảnh flow vẽ tay → dùng AI để chuyển thành diagram đẹp hơ
 > **Tool gợi ý:** Claude, ChatGPT, Gemini — tool nào đọc ảnh được (hoặc Antigravity nếu bạn có)
 > **Example prompt:** "Đây là ảnh chụp workflow vẽ tay của nhóm tôi [paste ảnh]. Hãy chuyển thành flowchart diagram, giữ đúng thứ tự các bước, ghi rõ ai làm, thời gian mỗi bước, và đánh dấu bottleneck bằng màu đỏ."
 > **Lưu ý:** So sánh diagram AI tạo với bản vẽ tay — AI hay bỏ sót bước hoặc đổi thứ tự. Sửa lại nếu sai.
-> **→ Ghi vào AI Support Log:** AI digitize đúng bao nhiêu %, bạn phải sửa gì?
+> **→ Ghi vào Reflection Log:** AI digitize đúng bao nhiêu %, bạn phải sửa gì?
 
 > **Thứ tự quan trọng:** Vẽ tay **trước** để tư duy rõ flow, AI digitize **sau** để trực quan hoá.
 
@@ -355,7 +355,7 @@ _______________________________________________
 > **Tool gợi ý:** Claude, Gemini, ChatGPT, Perplexity (tốt cho tìm nguồn), NotebookLM (nếu có nhiều tài liệu)
 > **Example prompt:** "Nhóm tôi đang giải bài toán [mô tả ngắn]. Tìm cho tôi: (1) 2-3 sản phẩm/startup đã giải bài toán tương tự, (2) 1 case study có kết quả đo được, (3) con số thống kê về pain point này trong ngành [ngành]."
 > **Lưu ý:** AI hay bịa tên công ty và số liệu — verify mọi nguồn bằng Google trước khi ghi vào worksheet.
-> **→ Ghi vào AI Support Log:** AI tìm được gì đúng, bịa gì, bạn verify thế nào?
+> **→ Ghi vào Reflection Log:** AI tìm được gì đúng, bịa gì, bạn verify thế nào?
 
 Phân công trong nhóm:
 
@@ -497,11 +497,11 @@ Nhưng nếu AI optimize sai hướng thì sao?
 
 ---
 
-# Phase 6 — Reflection + AI Support Log (10 min)
+# Phase 6 — Reflection + Reflection Log (10 min)
 
 > Phase này không dùng AI — tự viết reflection, không nhờ AI.
 
-## AI Support Log (bắt buộc)
+## Reflection Log (bắt buộc)
 
 | Câu hỏi | Trả lời |
 |----------|---------|
@@ -529,7 +529,7 @@ Nộp **3 phần**:
 |---|-------------|--------|-------|
 | 1 | **Scan & Filter Log** | Cá nhân | List 5+ problems + 3 Quick Problem Cards + kill rationale |
 | 2 | **Problem Deep-Dive** | Nhóm | Current flow (vẽ) + PS 6-field + Metrics + Research + Future flow (vẽ) + AI Fit + Go/Not Yet/No-Go |
-| 3 | **AI Support Log** | Cá nhân | AI giúp gì / sai gì / sửa gì |
+| 3 | **Reflection Log** | Cá nhân | AI giúp gì / sai gì / sửa gì |
 
 > **Gate sang Ngày 5:** Problem Statement + Metrics + AI Fit Decision phải đủ rõ để build PRD.
 

@@ -31,7 +31,7 @@ Phase 3  PITCH-CHALLENGE-VOTE   30 min   Nhóm pitch + challenge + chọn 1 bài
 Phase 4  DEEP-DIVE              85 min   Nhóm: vẽ workflow + viết PS + research + future flow
          ─── Break ───          10 min
 Phase 5  EVALUATE               20 min   Nhóm: AI Readiness + Go/Not Yet/No-Go
-Phase 6  REFLECTION             10 min   Cá nhân: AI Support Log + reflection
+Phase 6  REFLECTION             10 min   Cá nhân: Reflection Log + reflection
 ```
 
 ## Nộp bài
