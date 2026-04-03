@@ -2,8 +2,6 @@
 
 > Từ brief mơ hồ hoặc cơ hội thực tế → Problem Statement rõ ràng, testable, có boundary.
 
-**Đối tượng:** Tài liệu nội bộ dành cho giảng viên, lab coach, và TA.
-
 ---
 
 ## Tổng quan buổi học
@@ -36,34 +34,10 @@ SÁNG — Lecture (4h)                     CHIỀU — Lab (4h)
 
 ## Tài liệu
 
-### Giảng viên → `instructor/`
-
 | File | Mô tả |
 |------|-------|
-| `day02-lecture-slides.html` | Slide bài giảng (50 slides, HTML) |
-| `day02-lecture-slides.pdf` | Bản PDF của slide |
-| `day02-instructor-notes.md` | Talking script guide — nội dung cần nói cho từng slide, case study backgrounds, Q&A thường gặp, timing |
-
-### Lab Coach / TA → `lab-coach/`
-
-| File | Mô tả |
-|------|-------|
-| `day02-lab-01-coach-guide_v2_metrics.md` | Guide chính — facilitation từng phase, happy case, red flags, stress-test questions, gate rubric + observation rubric cá nhân |
-| `day02-lab-02-training-deck_v2_metrics.md` | Self-study deck — ai làm gì từng hoạt động (GV vs Coach), tips intervention, rubric split mới |
-| `day02-lab-03-facilitation-readme_v2_metrics.md` | Checklist chuẩn bị trước buổi dạy — vật dụng, phòng, tài liệu cần in |
-
-### Chấm điểm → `assessment/`
-
-| File | Mô tả |
-|------|-------|
-| `day02-assess-01-rubric-guidance_v2_metrics.md` | Tiêu chí chấm điểm 100 điểm, tách 60 điểm nhóm / 40 điểm cá nhân |
-
-### Tài liệu học viên (public / classroom)
-
-| File | Mô tả |
-|------|-------|
-| `01-worksheet_v2_metrics.md` | Worksheet chính — cập nhật self-check theo rubric mới |
-| `02-deliverable-example_v2_metrics.md` | Bài nộp mẫu hoàn chỉnh + giải thích vì sao bài này đạt điểm cao theo rubric mới |
+| `01-worksheet.md` | Worksheet chính — self-check theo rubric |
+| `02-deliverable-example.md` | Bài nộp mẫu hoàn chỉnh + giải thích vì sao bài này đạt điểm cao |
 | `03-inspiration-kit.md` | Gợi ý bài toán cho ai chưa nghĩ ra |
 
 ---
@@ -139,49 +113,6 @@ Mỗi người nộp 1 zip: `MaHocVien-HoTen-day02.zip`
 - "Không cần AI" vẫn có thể điểm cao
 - "Not Yet" với justify tốt > "Go" với lập luận yếu
 - Điểm cá nhân dùng để **phân biệt mức độ hiểu thực**, không chỉ mức độ ngồi trong nhóm tốt
-
----
-
-## Khi nào cần dùng observation score
-
-Rubric mới có phần cá nhân mạnh hơn, nên coach/TA cần ghi nhận ngắn ở các phase sau:
-
-- **Phase 3:** học viên có pitch rõ không, có challenge thật không
-- **Phase 5:** học viên có hiểu logic Go / Not Yet / No-Go không
-- **Phase 6:** AI Support Log (log Phase Reflection) có trung thực không, có chỉ rõ AI sai ở đâu không, có rút ra bài học cụ thể không
-
-> Không cần chấm li ti từng hành vi. Chỉ cần đủ để phân biệt:
-> - học viên mạnh,
-> - học viên vừa đủ pass,
-> - học viên đi nhờ nhóm.
-
----
-
-## File nào nên dùng làm anchor cho việc chấm
-
-### `02-deliverable-example_v2_metrics.md`
-Dùng làm **anchor example** cho:
-- scan tốt là gì
-- PS tốt là gì
-- AI fit tốt là gì
-- một kết luận **LLM Feature / Boost** trông như thế nào theo rubric mới
-
-### `03-inspiration-kit.md`
-Dùng để hỗ trợ ideation khi học viên bị blank ở Phase 1.
-File này **không phải** căn cứ chấm điểm.
-
----
-
-## Khuyến nghị vận hành cho lớp đông
-
-- Nếu lớp đông, coach chỉ cần dùng **observation rubric nhẹ** ở Phase 3 / 5 / 6
-- Nếu có 2 coach/TA, nên thống nhất trước 2-3 anchor examples để giảm lệch chấm
-- Nếu phải chấm nhanh, ưu tiên xem:
-  1. Quick Problem Cards cá nhân
-  2. Pitch / challenge note
-  3. PS + metrics + boundary
-  4. Go / Not Yet / No-Go justification
-  5. AI Support Log
 
 ---
 
