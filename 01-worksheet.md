@@ -1,18 +1,11 @@
-# Lab 2 — AI Opportunity Discovery Sprint (v2)
-## Worksheet + Self-Check Metric chi tiết
-
-**Mục tiêu của bản v2:** giữ nguyên flow lab cũ, nhưng bổ sung rõ hơn cách tự kiểm tra chất lượng bài làm và cách điểm **nhóm / cá nhân** sẽ được tính.
+# Lab 2 — Worksheet
 
 ---
 
-## 1. Cách tính điểm tổng quát
-
-<<<<<<< HEAD:day-02/01-worksheet.md
-### Tổng điểm: 100
-- **Điểm nhóm:** 60
-- **Điểm cá nhân:** 40
+## 1. Cách tính điểm
 
 ### Điểm nhóm (60 điểm)
+
 | Gate | Điểm | Deliverable | Chấm cái gì |
 |---|---:|---|---|
 | G1. Workflow Mapping | 20 | Problem Deep-Dive | Flow hiện tại có đủ bước, bottleneck, thời gian, handoff |
@@ -21,20 +14,14 @@
 | G4. Decision Quality | 10 | Problem Deep-Dive | Go / Not Yet / No-Go có justify bằng evidence |
 
 ### Điểm cá nhân (40 điểm)
+
 | Gate | Điểm | Deliverable | Chấm cái gì |
 |---|---:|---|---|
 | I1. Scan & Quick Cards | 15 | Scan & Filter Log | Breadth, 4 lenses, 3 cards đủ chất lượng |
 | I2. Pitch + Challenge Participation | 10 | Quan sát Phase 3 | Pitch rõ, challenge đúng 3 câu chuẩn, có phản biện chất lượng |
-| I3. AI Support Log + Reflection | 15 | AI Support Log (log Phase 6 — Reflection) | Ghi lại AI hỗ trợ gì trong từng phase, sai/hời hợt ở đâu, học viên sửa gì bằng tay, và rút ra bài học gì cho bản thân |
+| I3. AI Support Log + Reflection | 15 | 03-ai-log.md | Ghi lại AI hỗ trợ gì, sai ở đâu, học viên sửa gì, rút ra bài học gì |
 
 > **Nguyên tắc:** Một nhóm mạnh không đủ để kéo tất cả thành viên lên điểm cao. Mỗi người phải chứng minh được phần tư duy cá nhân.
-=======
-1. **Xuất phát từ bản thân** — bài toán đến từ chính workflow, sản phẩm, công việc của bạn
-2. **AI không thay bạn ra quyết định** — AI brainstorm/draft, bạn chọn/sửa/chốt
-3. **"Không cần AI" vẫn là kết luận tốt** — điểm dựa trên chất lượng tư duy, không phải mức phức tạp
-4. **Vẽ trước, viết sau** — flow vẽ tay trên giấy, không phải list text
-5. **Bắt buộc có Reflection Log** — ghi lại AI giúp gì, sai gì, bạn sửa gì
->>>>>>> main:01-worksheet.md
 
 ---
 
@@ -50,22 +37,30 @@
 
 ---
 
-## 3. Deliverables và điểm gắn với từng phần
+## 3. Deliverables
 
 | Deliverable | Ai làm | Điểm liên quan |
 |---|---|---:|
-| Scan & Filter Log | Cá nhân | 15 |
-| Problem Deep-Dive | Nhóm | 60 |
-| AI Support Log (log Phase 6 — Reflection) | Cá nhân | 15 |
+| 01-problem-scan.md | Cá nhân | 15 |
+| 02-deep-dive-report.md | Nhóm | 60 |
+| 03-ai-log.md | Cá nhân | 15 |
 | Pitch + Challenge Participation | Cá nhân (coach quan sát) | 10 |
 
-> **Lưu ý:** Không có file riêng cho Pitch + Challenge Participation, nên phần này sẽ được coach/giảng viên đánh dấu trực tiếp trong lúc lab.
+Mỗi người nộp **1 zip riêng**: `MaHocVien-HoTen-day02.zip`
+
+```
+MaHocVien-HoTen-day02.zip
+├── 01-problem-scan.md
+├── 02-deep-dive-report.md
+├── 03-ai-log.md
+├── 04-workflow-diagram.png / .pdf
+└── extras/   ← tùy chọn
+```
+
+> `01` và `03` là căn cứ chính cho **điểm cá nhân**. `02` và `04` là căn cứ chính cho **điểm nhóm**. Mỗi người vẫn nộp 1 zip riêng, kể cả khi file nhóm giống nhau.
 
 ---
 
-<<<<<<< HEAD:day-02/01-worksheet.md
-## 4. Self-check theo từng phase
-=======
 # Phase 0 — Worked Example (15 min)
 
 > *Giảng viên demo. Bạn chỉ cần xem và hiểu flow.*
@@ -83,27 +78,21 @@ Xem file [`02-deliverable-example.md`](02-deliverable-example.md) để đọc l
 - Cách check AI Fit
 
 > **🤖 AI Tip — Chuẩn bị trước buổi lab: Deep Research**
-> Dùng trước hoặc trong Phase 1 — không cần dùng ngay lúc xem demo.
 > **Dùng AI để:** Research nhanh về domain, tìm data/case study liên quan
 > **Tool gợi ý:** Claude, Gemini, ChatGPT, Perplexity, NotebookLM (nếu nhiều tài liệu)
 > **Example prompt:** "Tôi đang nghiên cứu quy trình [tên quy trình] trong ngành [ngành]. Cho tôi 5 pain point phổ biến nhất và số liệu về thời gian/chi phí lãng phí ở mỗi bước."
 > **Lưu ý:** Luôn verify nguồn — AI có thể bịa số liệu. Cross-check với ít nhất 1 nguồn khác.
-> **→ Ghi vào Reflection Log:** AI giúp gì, sai gì, bạn sửa gì
->>>>>>> main:01-worksheet.md
+> **→ Ghi vào 03-ai-log.md:** AI giúp gì, sai gì, bạn sửa gì
 
 ---
 
-# Phase 1 — SCAN (Cá nhân)
+# Phase 1 — SCAN (Cá nhân, 20 min)
 
 ## Yêu cầu tối thiểu
 - Liệt kê **ít nhất 5 problems**
 - Dùng **ít nhất 3/4 lenses**
-- Bài toán đến từ workflow thật, không phải ý tưởng chung chung kiểu “AI cho giáo dục”
+- Bài toán đến từ workflow thật, không phải ý tưởng chung chung kiểu "AI cho giáo dục"
 
-<<<<<<< HEAD:day-02/01-worksheet.md
-## Tự chấm nhanh I1.1 — Scan Breadth (5 điểm)
-| Mức | Mô tả |
-=======
 ## Bước 1.1 — Cá nhân: Liệt kê (12 min)
 
 Dùng **4 Lenses** để quét xung quanh mình. Ghi **ít nhất 5 problems**.
@@ -144,7 +133,7 @@ Dùng **4 Lenses** để quét xung quanh mình. Ghi **ít nhất 5 problems**.
 > **Tool gợi ý:** ChatGPT, Claude, Gemini, Perplexity — tuỳ bạn
 > **Example prompt:** "Tôi là [vai trò] làm trong [lĩnh vực], công việc hàng ngày gồm [liệt kê tasks]. Có những pain point nào mà AI có thể giúp cải thiện?"
 > **Lưu ý:** Prompt này chỉ gợi ý — bạn cần filter lại dựa trên kinh nghiệm thật của mình.
-> **→ Ghi vào Reflection Log:** AI gợi ý gì, bạn giữ lại bao nhiêu ý?
+> **→ Ghi vào 03-ai-log.md:** AI gợi ý gì, bạn giữ lại bao nhiêu ý?
 
 ## Bước 1.2 — Nhóm: Quick Share (8 min)
 
@@ -152,9 +141,24 @@ Mỗi người đọc nhanh **top 3** cho nhóm nghe (~1 min/người). Chỉ ng
 
 Ghi nhận: có pain nào trùng nhau giữa các thành viên không?
 
+## Tự chấm — I1.1 Scan Breadth (5 điểm)
+
+| Mức | Mô tả |
+|---|---|
+| 0–1 | Dưới 3 problems, gần như chỉ có 1 loại lens |
+| 2–3 | Có 3–4 problems, dùng 2–3 lenses |
+| 4 | Có 5+ problems, dùng 3 lenses |
+| 5 | Có 5+ problems, dùng 3–4 lenses, pain point cụ thể và đa dạng |
+
+### Checklist tự kiểm tra
+- [ ] Tôi có ít nhất 5 problems
+- [ ] Tôi dùng ít nhất 3 lenses
+- [ ] Mỗi problem đủ cụ thể để hình dung workflow
+- [ ] Không problem nào quá rộng kiểu "xây AI agent cho công ty"
+
 ---
 
-# Phase 2 — QUICK-ASSESS: Round 1 (40 min)
+# Phase 2 — QUICK-ASSESS (40 min)
 
 ## Mục tiêu
 Quick-pass qua top 3 bài toán. Mỗi cái 10 phút — buộc ra quyết định nhanh, không overthink.
@@ -162,8 +166,6 @@ Quick-pass qua top 3 bài toán. Mỗi cái 10 phút — buộc ra quyết đị
 ## Bước 2.1 — Cá nhân: Viết 3 Quick Problem Cards (30 min)
 
 Chọn **top 3** từ list → với mỗi cái, điền 1 **Quick Problem Card** (10 min/card).
-
-> Dùng template bên dưới hoặc tự kẻ trên giấy.
 
 ### Quick Problem Card
 
@@ -210,6 +212,21 @@ Quick reactions — nếu thấy card nào:
 - "Cái này rule đủ rồi" → ghi bên cạnh
 - "Cái này thú vị, muốn biết thêm" → ghi bên cạnh
 
+## Tự chấm — I1.2 Quick Problem Cards (10 điểm)
+
+| Mức | Mô tả |
+|---|---|
+| 0–3 | Thiếu nhiều field, metric kiểu "nhanh hơn/tốt hơn" |
+| 4–6 | Đủ field cơ bản nhưng flow còn hời hợt hoặc metric chưa rõ ngưỡng |
+| 7–8 | Cả 3 cards đều khá rõ, metric có số, quick gut hợp lý |
+| 9–10 | Cards rõ, có critical thinking, chỉ ra đúng bottleneck và đo được thành công |
+
+### Checklist tự kiểm tra
+- [ ] Tôi có đủ 3 cards
+- [ ] Mỗi card có metric cụ thể, không mơ hồ
+- [ ] Tôi mô tả được 3–5 bước workflow hiện tại
+- [ ] Tôi không mặc định chọn Agent cho mọi card
+
 ---
 
 # Break (10 min)
@@ -218,10 +235,10 @@ Quick reactions — nếu thấy card nào:
 
 # Phase 3 — PITCH-CHALLENGE-VOTE (30 min)
 
+> Phase này không dùng AI — tự tư duy và phản biện trong nhóm.
+
 ## Mục tiêu
 Fix thiên kiến cá nhân (self-referential bias) + học cách nói KHÔNG.
-
-> Phase này không dùng AI — tự tư duy và phản biện trong nhóm.
 
 ## Bước 3.1 — Pitch + Challenge (20 min)
 
@@ -266,14 +283,31 @@ Sau khi tất cả pitch xong: **Mỗi người 1 phiếu** → bình chọn bà
 
 **Vì sao chọn:** _______________
 
+## Tự chấm — I2 Pitch + Challenge Participation (10 điểm)
+
+| Mức | Mô tả |
+|---|---|
+| 0–2 | Không pitch rõ được, không challenge hoặc challenge rất hời hợt |
+| 3–5 | Pitch được ý chính nhưng còn solution-first, challenge chưa sắc |
+| 6–8 | Pitch rõ workflow, pain, metric; challenge bám đúng 3 câu chuẩn |
+| 9–10 | Pitch rất rõ, challenge có chất lượng, giúp nhóm chọn tốt hơn |
+
+### Checklist tự kiểm tra
+- [ ] Tôi đã pitch rõ trong 2 phút
+- [ ] Tôi đã challenge ít nhất 1 bạn khác bằng 3 câu chuẩn
+- [ ] Tôi có thể nói rõ vì sao card của mình bị kill hoặc được chọn
+- [ ] Tôi chấp nhận "No AI / Rule" là kết luận hợp lệ nếu đúng
+
 ---
 
-# Phase 4 — DEEP-DIVE: Round 2 (85 min)
+# Phase 4 — DEEP-DIVE (85 min)
 
 ## Mục tiêu
 Phân tích kỹ 1 bài toán. Đây là phần chính — output ở đây là deliverable nộp bài.
 
 Cả nhóm cùng làm. **Dùng giấy A3 hoặc whiteboard.**
+
+---
 
 ## Bước 4.1 — Current-State Workflow Mapping (25 min)
 
@@ -304,18 +338,31 @@ Mỗi bước = 1 ô. Nối bằng mũi tên. Ghi lên mỗi ô:
 - Phải có ít nhất 1 bottleneck đánh dấu đỏ
 - Ghi tổng thời gian hiện tại: ___ min/lần
 
-### Digitize bằng AI (sau khi vẽ xong)
-
-Chụp ảnh flow vẽ tay → dùng AI để chuyển thành diagram đẹp hơn.
-
 > **🤖 AI Tip — Phase 4a: Digitize Workflow**
-> **Dùng AI để:** Chuyển flow vẽ tay thành diagram digital
-> **Tool gợi ý:** Claude, ChatGPT, Gemini — tool nào đọc ảnh được (hoặc Antigravity nếu bạn có)
+> **Dùng AI để:** Chuyển flow vẽ tay thành diagram digital sau khi đã vẽ xong
+> **Tool gợi ý:** Claude, ChatGPT, Gemini — tool nào đọc ảnh được
 > **Example prompt:** "Đây là ảnh chụp workflow vẽ tay của nhóm tôi [paste ảnh]. Hãy chuyển thành flowchart diagram, giữ đúng thứ tự các bước, ghi rõ ai làm, thời gian mỗi bước, và đánh dấu bottleneck bằng màu đỏ."
 > **Lưu ý:** So sánh diagram AI tạo với bản vẽ tay — AI hay bỏ sót bước hoặc đổi thứ tự. Sửa lại nếu sai.
-> **→ Ghi vào Reflection Log:** AI digitize đúng bao nhiêu %, bạn phải sửa gì?
+> **→ Ghi vào 03-ai-log.md:** AI digitize đúng bao nhiêu %, bạn phải sửa gì?
 
 > **Thứ tự quan trọng:** Vẽ tay **trước** để tư duy rõ flow, AI digitize **sau** để trực quan hoá.
+
+## Tự chấm — G1 Workflow Mapping (20 điểm)
+
+| Tiêu chí | Điểm tối đa | Cần có |
+|---|---:|---|
+| Số bước & cấu trúc diagram | 5 | Ít nhất 5 bước, không phải text list |
+| Bottleneck & handoff | 5 | Có ít nhất 1 bottleneck, có handoff nếu có chuyển giao |
+| Thời gian | 5 | Có thời gian từng bước hoặc đủ để suy ra tổng |
+| Độ rõ | 5 | Người khác nhìn vào hiểu được workflow |
+
+### Checklist tự kiểm tra
+- [ ] Flow có ít nhất 5 bước
+- [ ] Có bottleneck đánh dấu rõ
+- [ ] Có thời gian từng bước hoặc tổng workflow hợp lý
+- [ ] Flow thể hiện được ai làm gì, không chỉ "hệ thống làm"
+
+---
 
 ## Bước 4.2 — Problem Statement + Metrics (15 min)
 
@@ -332,7 +379,7 @@ Dùng đúng khung từ slide:
 | **Success Metric** | Khi nào được coi là thành công? Mức ngưỡng là bao nhiêu? |
 | **Operational Boundary** | Hệ thống được phép làm gì, không được phép làm gì, và điểm nào cần human-in-the-loop? |
 
-> **Nhớ:** Nếu viết xong mà bạn chưa hình dung được cách thử nghiệm (test cases), cách đo thành/bại (eval metric), và giới hạn hệ thống được phép làm gì (architecture boundary), thì problem statement vẫn chưa đủ chặt.
+> **Nhớ:** Nếu viết xong mà bạn chưa hình dung được cách thử nghiệm (test cases), cách đo thành/bại (eval metric), và giới hạn hệ thống được phép làm gì (boundary), thì problem statement vẫn chưa đủ chặt.
 
 Điền:
 
@@ -347,13 +394,10 @@ Dùng đúng khung từ slide:
 
 > **🤖 AI Tip — Phase 4b: Phản biện Problem Statement**
 > **Dùng AI để:** Check logic và tìm lỗ hổng trong PS. **Viết PS xong trước, AI phản biện sau.**
-> **Tool gợi ý:** Để mở — dùng tool bạn quen nhất
 > **Example prompt:** "Đây là Problem Statement của nhóm tôi: [paste 6 fields]. Hãy chỉ ra: (1) field nào còn mơ hồ, (2) metric đã đo được chưa, (3) operational boundary đã rõ chưa, (4) thiếu gì để suy ra test cases?"
 > **Lưu ý:** AI hay khen PS của bạn — hãy yêu cầu rõ "chỉ ra điểm yếu, đừng khen."
 
 ### Sub-goals Decomposition
-
-Trước khi giải bài toán lớn, user phải giải những bài phụ nào?
 
 **Sub-goals user phải giải TRƯỚC khi dùng AI solution:**
 - _______________________________________________
@@ -363,11 +407,6 @@ Trước khi giải bài toán lớn, user phải giải những bài phụ nào
 - _______________________________________________
 - _______________________________________________
 
-Các sub-goals này {nhất quán / mâu thuẫn} với primary goal vì:
-_______________________________________________
-
-> *Ví dụ: Bài toán "AI phân loại email support tự động". Sub-goal trước: team phải gắn label cho 500+ email cũ để train. Sub-goal trong khi: user phải review các email AI phân loại sai. Cả hai nhất quán với goal vì đều hướng đến giảm thời gian xử lý.*
-
 ### Success Metrics — ít nhất 2, phải có ngưỡng
 
 | Loại | Metric | Ngưỡng |
@@ -375,181 +414,19 @@ _______________________________________________
 | Efficiency (thời gian/chi phí) | | |
 | Quality (chất lượng output) | | |
 
-**Ví dụ tốt:** "Giảm thời gian xử lý từ 8 min → dưới 3 min" / "Tỉ lệ lỗi không tăng quá 2%"
+**Ví dụ tốt:** "Giảm thời gian xử lý từ 8 min → dưới 3 min" / "Tỉ lệ lỗi không tăng quá 2%"  
 **Ví dụ xấu:** "Nhanh hơn" / "Tốt hơn" / "User hài lòng"
 
-## Bước 4.3 — Research (20 min)
+## Tự chấm — G2 Problem Statement + Metrics (20 điểm)
 
-> **🤖 AI Tip — Phase 4c: Deep Research**
-> **Dùng AI để:** Tìm existing solutions, case studies, và data liên quan đến bài toán
-> **Tool gợi ý:** Claude, Gemini, ChatGPT, Perplexity (tốt cho tìm nguồn), NotebookLM (nếu có nhiều tài liệu)
-> **Example prompt:** "Nhóm tôi đang giải bài toán [mô tả ngắn]. Tìm cho tôi: (1) 2-3 sản phẩm/startup đã giải bài toán tương tự, (2) 1 case study có kết quả đo được, (3) con số thống kê về pain point này trong ngành [ngành]."
-> **Lưu ý:** AI hay bịa tên công ty và số liệu — verify mọi nguồn bằng Google trước khi ghi vào worksheet.
-> **→ Ghi vào Reflection Log:** AI tìm được gì đúng, bịa gì, bạn verify thế nào?
-
-Phân công trong nhóm:
-
-| Ai | Làm gì | Ghi kết quả |
-|----|--------|-------------|
-| 1-2 người | Tìm **1 sản phẩm/tool** đã giải bài toán tương tự | Tên: ___ / Approach: ___ / Điểm mạnh: ___ / Điểm yếu: ___ |
-| 1-2 người | Tìm **1 case study** hoặc bài viết liên quan | Nguồn: ___ / Họ làm gì: ___ / Kết quả: ___ / Bài học: ___ |
-| 1 người | Quick poll: hỏi 2-3 người ngoài nhóm "bạn có gặp pain này không?" | Người 1: ___ / Người 2: ___ / Người 3: ___ |
-
-**Share findings (5 min cuối):** Gộp lại, ghi lên giấy/board.
-
-### Research findings tổng hợp
-
-**Existing solution:**
-
-**Case study / bài viết:**
-
-**Quick poll kết quả:**
-
-**Bài học rút ra cho bài toán của mình:**
-
-## Bước 4.4 — Future-State Flow + AI Fit (25 min)
-
-### Trước khi vẽ — trả lời 3 câu hỏi
-
-Dùng các framework từ slide:
-
-**1. AI Fit Check (dùng AI-Fit Matrix từ slide)**
-
-| | Ambiguity thấp | Ambiguity cao |
-|--|----------------|---------------|
-| **Complexity thấp** | Rule/workflow đủ | LLM feature |
-| **Complexity cao** | Workflow + automation | Agent (cẩn thận!) |
-
-Bài toán của nhóm nằm ở ô nào? ___
-
-**2. AI Suitability Check**
-
-| AI có lẽ PHÙ HỢP khi... | AI có lẽ KHÔNG phù hợp khi... |
->>>>>>> main:01-worksheet.md
-|---|---|
-| 0–1 | Dưới 3 problems, gần như chỉ có 1 loại lens |
-| 2–3 | Có 3–4 problems, dùng 2–3 lenses |
-| 4 | Có 5+ problems, dùng 3 lenses |
-| 5 | Có 5+ problems, dùng 3–4 lenses, pain point cụ thể và đa dạng |
-
-### Checklist tự kiểm tra
-- [ ] Tôi có ít nhất 5 problems
-- [ ] Tôi dùng ít nhất 3 lenses
-- [ ] Mỗi problem đủ cụ thể để hình dung workflow
-- [ ] Không problem nào quá rộng kiểu “xây AI agent cho công ty”
-
----
-
-# Phase 2 — QUICK-ASSESS (Cá nhân)
-
-## Yêu cầu tối thiểu
-- Viết **3 Quick Problem Cards**
-- Mỗi card có:
-  - actor hoặc người chịu đau
-  - 3–5 bước workflow hiện tại
-  - bottleneck
-  - 1 metric có số hoặc ngưỡng
-  - quick gut: No AI / Rule / LLM / Agent
-
-## Tự chấm nhanh I1.2 — Quick Problem Cards (10 điểm)
-| Mức | Mô tả |
-|---|---|
-| 0–3 | Thiếu nhiều field, metric kiểu “nhanh hơn/tốt hơn” |
-| 4–6 | Đủ field cơ bản nhưng flow còn hời hợt hoặc metric chưa rõ ngưỡng |
-| 7–8 | Cả 3 cards đều khá rõ, metric có số, quick gut hợp lý |
-| 9–10 | Cards rõ, có critical thinking, chỉ ra đúng bottleneck và đo được thành công |
-
-### Checklist tự kiểm tra
-- [ ] Tôi có đủ 3 cards
-- [ ] Mỗi card có metric cụ thể, không mơ hồ
-- [ ] Tôi mô tả được 3–5 bước workflow hiện tại
-- [ ] Tôi không mặc định chọn Agent cho mọi card
-
----
-
-# Phase 3 — PITCH-CHALLENGE-VOTE (Nhóm, NO-AI)
-
-## Mục tiêu của phần này
-- kiểm tra chất lượng ý tưởng bằng phản biện người thật
-- loại bỏ confirmation bias
-- buộc mỗi người phải nói được vì sao bài toán của mình đáng đi tiếp
-
-## Điểm cá nhân I2 — Pitch + Challenge Participation (10 điểm)
-| Mức | Mô tả |
-|---|---|
-| 0–2 | Không pitch rõ được, không challenge hoặc challenge rất hời hợt |
-| 3–5 | Pitch được ý chính nhưng còn solution-first, challenge chưa sắc |
-| 6–8 | Pitch rõ workflow, pain, metric; challenge bám đúng 3 câu chuẩn |
-| 9–10 | Pitch rất rõ, challenge có chất lượng, giúp nhóm chọn tốt hơn |
-
-## 3 câu challenge bắt buộc
-1. **Rule/script đủ chưa? Có thật sự cần AI không?**
-2. **Ngoài bạn, ai đau nữa? Bao nhiêu người?**
-3. **Metric đo được không? Có số cụ thể chưa?**
-
-### Checklist tự kiểm tra
-- [ ] Tôi đã pitch rõ trong 2 phút
-- [ ] Tôi đã challenge ít nhất 1 bạn khác bằng 3 câu chuẩn
-- [ ] Tôi có thể nói rõ vì sao card của mình bị kill hoặc được chọn
-- [ ] Tôi chấp nhận “No AI / Rule” là kết luận hợp lệ nếu đúng
-
----
-
-<<<<<<< HEAD:day-02/01-worksheet.md
-# Phase 4 — DEEP-DIVE (Nhóm)
-=======
-# Phase 6 — Reflection + Reflection Log (10 min)
->>>>>>> main:01-worksheet.md
-
-## G1. Workflow Mapping (20 điểm)
-
-<<<<<<< HEAD:day-02/01-worksheet.md
-### Tiêu chí chấm
-| Tiêu chí | Điểm tối đa | Cần có |
-|---|---:|---|
-| Số bước & cấu trúc diagram | 5 | Ít nhất 5 bước, không phải text list |
-| Bottleneck & handoff | 5 | Có ít nhất 1 bottleneck, có handoff nếu có chuyển giao |
-| Thời gian | 5 | Có thời gian từng bước hoặc đủ để suy ra tổng |
-| Độ rõ | 5 | Người khác nhìn vào hiểu được workflow |
-=======
-## Reflection Log (bắt buộc)
->>>>>>> main:01-worksheet.md
-
-### Tự kiểm tra
-- [ ] Flow có ít nhất 5 bước
-- [ ] Có bottleneck đánh dấu rõ
-- [ ] Có thời gian từng bước hoặc tổng workflow hợp lý
-- [ ] Flow thể hiện được ai làm gì, không chỉ “hệ thống làm”
-
----
-
-## G2. Problem Statement + Metrics (20 điểm)
-
-### 6 field bắt buộc
-1. Actor / Operator
-2. Current Workflow
-3. Bottleneck
-4. Impact
-5. Success Metric
-6. Operational Boundary
-
-<<<<<<< HEAD:day-02/01-worksheet.md
-### Tiêu chí chấm
 | Tiêu chí | Điểm tối đa | Cần có |
 |---|---:|---|
 | Đủ 6 fields | 6 | Không thiếu field nào |
 | Cụ thể & scope hẹp | 4 | Đúng 1 workflow, không solution-first |
 | Success metrics | 5 | Ít nhất 2 metrics, có ngưỡng |
 | Boundary + HITL | 5 | Rõ AI được/không được làm gì |
-=======
-| # | Deliverable | Ai làm | Mô tả |
-|---|-------------|--------|-------|
-| 1 | **Scan & Filter Log** | Cá nhân | List 5+ problems + 3 Quick Problem Cards + kill rationale |
-| 2 | **Problem Deep-Dive** | Nhóm | Current flow (vẽ) + PS 6-field + Metrics + Research + Future flow (vẽ) + AI Fit + Go/Not Yet/No-Go |
-| 3 | **Reflection Log** | Cá nhân | AI giúp gì / sai gì / sửa gì |
->>>>>>> main:01-worksheet.md
 
-### Tự kiểm tra
+### Checklist tự kiểm tra
 - [ ] PS đủ 6 field
 - [ ] Scope đủ hẹp để hình dung test case
 - [ ] Metric có số/ngưỡng, không chỉ là mong muốn chung chung
@@ -559,9 +436,77 @@ Bài toán của nhóm nằm ở ô nào? ___
 
 ---
 
-## G3. AI Fit + Research + Future Flow (10 điểm)
+## Bước 4.3 — Research (20 min)
 
-### Tiêu chí chấm
+> **🤖 AI Tip — Phase 4c: Deep Research**
+> **Dùng AI để:** Tìm existing solutions, case studies, và data liên quan đến bài toán
+> **Tool gợi ý:** Claude, Gemini, ChatGPT, Perplexity (tốt cho tìm nguồn), NotebookLM (nếu có nhiều tài liệu)
+> **Example prompt:** "Nhóm tôi đang giải bài toán [mô tả ngắn]. Tìm cho tôi: (1) 2-3 sản phẩm/startup đã giải bài toán tương tự, (2) 1 case study có kết quả đo được, (3) con số thống kê về pain point này trong ngành [ngành]."
+> **Lưu ý:** AI hay bịa tên công ty và số liệu — verify mọi nguồn bằng Google trước khi ghi vào worksheet.
+> **→ Ghi vào 03-ai-log.md:** AI tìm được gì đúng, bịa gì, bạn verify thế nào?
+
+Phân công trong nhóm:
+
+| Ai | Làm gì | Ghi kết quả |
+|----|--------|-------------|
+| 1-2 người | Tìm **1 sản phẩm/tool** đã giải bài toán tương tự | Tên: ___ / Approach: ___ / Điểm mạnh: ___ / Điểm yếu: ___ |
+| 1-2 người | Tìm **1 case study** hoặc bài viết liên quan | Nguồn: ___ / Họ làm gì: ___ / Kết quả: ___ / Bài học: ___ |
+| 1 người | Quick poll: hỏi 2-3 người ngoài nhóm "bạn có gặp pain này không?" | Người 1: ___ / Người 2: ___ / Người 3: ___ |
+
+**Research findings tổng hợp:**
+
+- Existing solution:
+- Case study / bài viết:
+- Quick poll kết quả:
+- Bài học rút ra cho bài toán của mình:
+
+---
+
+## Bước 4.4 — Future-State Flow + AI Fit (25 min)
+
+### 1. AI Fit Check (dùng AI-Fit Matrix từ slide)
+
+| | Ambiguity thấp | Ambiguity cao |
+|--|----------------|---------------|
+| **Complexity thấp** | Rule/workflow đủ | LLM feature |
+| **Complexity cao** | Workflow + automation | Agent (cẩn thận!) |
+
+Bài toán của nhóm nằm ở ô nào? ___
+
+### 2. AI Suitability Check
+
+| AI có lẽ PHÙ HỢP khi... | AI có lẽ KHÔNG phù hợp khi... |
+|---|---|
+| Cần xử lý ngôn ngữ tự nhiên, đa dạng | Logic đơn giản, rule/script đủ |
+| Output đa dạng tốt hơn cố định (summarise, draft, classify) | Output phải 100% nhất quán, kiểm chứng từng dòng |
+| Volume lớn, lặp lại, nhưng mỗi case có sắc thái riêng | Sai 1 lần là hậu quả không chấp nhận được |
+| Ambiguity cao trong input, khó encode thành rule | Không có cơ chế review/verify output trước khi dùng |
+
+Bài toán của nhóm tick bên nào nhiều hơn? ___
+
+### 3. Underspecification Check
+
+Điều gì bạn chưa biết rõ — và hậu quả nếu giả định sai?
+
+| Điều chưa rõ | Hậu quả nếu sai | Cách tìm ra trước khi build |
+|---|---|---|
+| | | |
+| | | |
+| | | |
+
+### 4. Vẽ Future-State Flow
+
+Dùng cùng format với Current-State Flow. Đánh dấu thêm:
+
+- 🔵 **AI step** — bước AI thực hiện
+- 🟢 **Human step** — bước con người phải làm/review
+- 🔴 **Boundary** — điểm AI không được vượt qua
+- ↩ **Fallback** — nếu AI sai thì xử lý thế nào?
+
+> **Nhóm nào chưa có fallback → mất điểm G3 dù AI fit đúng.**
+
+## Tự chấm — G3 AI Fit + Research + Future Flow (10 điểm)
+
 | Tiêu chí | Điểm tối đa | Cần có |
 |---|---:|---|
 | AI Fit justification | 3 | So sánh Rule / LLM / Agent |
@@ -569,7 +514,7 @@ Bài toán của nhóm nằm ở ô nào? ___
 | Future-state flow | 3 | Có AI/Human/Boundary/Fallback |
 | Underspecification / Suitability | 2 | Có ít nhất 2 assumptions hoặc điều chưa rõ |
 
-### Tự kiểm tra
+### Checklist tự kiểm tra
 - [ ] Chúng tôi đã so sánh alternatives, không mặc định chọn Agent
 - [ ] Có ít nhất 1 existing solution hoặc case study
 - [ ] Future flow có AI/Human/Boundary/Fallback
@@ -577,11 +522,40 @@ Bài toán của nhóm nằm ở ô nào? ___
 
 ---
 
-# Phase 5 — EVALUATE (Nhóm, NO-AI)
+# Phase 5 — EVALUATE (20 min)
 
-## G4. Decision Quality (10 điểm)
+> Phase này không dùng AI — nhóm tự ra quyết định dựa trên evidence.
 
-### Tiêu chí chấm
+## AI Readiness Checklist
+
+| # | Câu hỏi | Yes / No / Not Yet | Ghi chú |
+|---|---------|-------------------|---------|
+| 1 | Có data/input đủ chất lượng để AI xử lý? | | |
+| 2 | Có metric rõ để đo thành công? | | |
+| 3 | Nếu AI sai, hậu quả có chấp nhận được không? | | |
+| 4 | User/stakeholder sẵn sàng dùng AI solution? | | |
+| 5 | Có resource để build và maintain? | | |
+
+## Optimization Check
+
+**Lợi ích cụ thể nếu giải được:**
+- _______________________________________________
+
+**Rủi ro nếu AI sai hoặc optimize sai chỗ:**
+- _______________________________________________
+
+## Quyết định
+
+☐ **Go** — đủ điều kiện, bắt đầu với scope nhỏ/pilot
+
+☐ **Not Yet** — ý tưởng đúng hướng nhưng cần validate thêm: _______________
+
+☐ **No-Go** — không phù hợp vì: _______________
+
+**Justify (bắt buộc):** _______________________________________________
+
+## Tự chấm — G4 Decision Quality (10 điểm)
+
 | Tiêu chí | Điểm tối đa | Cần có |
 |---|---:|---|
 | AI Readiness checklist | 3 | Điền đủ 5 câu, có ghi chú |
@@ -589,69 +563,64 @@ Bài toán của nhóm nằm ở ô nào? ___
 | Go / Not Yet / No-Go | 3 | Quyết định rõ |
 | Justification | 2 | Bám evidence từ workflow, PS, research |
 
-### Tự kiểm tra
+### Checklist tự kiểm tra
 - [ ] Chúng tôi điền đủ AI Readiness checklist
 - [ ] Quyết định khớp với evidence
 - [ ] Nếu chọn Not Yet, đã nói rõ cần validate gì tiếp
 - [ ] Nếu chọn Go, đã nói rõ scope nhỏ/pilot là gì
 
-> **Nhắc lại:** “Not Yet” với justify tốt có thể cao điểm hơn “Go” với lập luận yếu.
+> **Nhắc lại:** "Not Yet" với justify tốt có thể cao điểm hơn "Go" với lập luận yếu.
 
 ---
 
-# Phase 6 — REFLECTION + AI SUPPORT LOG (Cá nhân, NO-AI)
+# Phase 6 — REFLECTION (10 min, Cá nhân)
 
-> **03-ai-log.md** là log dành riêng cho phase này. Học viên ghi lại trung thực toàn bộ quá trình tương tác với AI trong buổi lab — không phải để "báo cáo dùng AI", mà để phản ánh tư duy.
+> Ghi vào **03-ai-log.md**. Không dùng AI để viết phần này.
+>
+> Mục tiêu không phải "báo cáo dùng AI nhiều hay ít" mà là **phản ánh tư duy thật** — bạn học được gì từ buổi lab hôm nay.
 
-## I3. AI Support Log + Reflection (15 điểm)
+Trả lời 4 câu hỏi:
 
-### Tiêu chí chấm
+| Câu hỏi | Trả lời |
+|---------|---------|
+| AI giúp gì trong buổi lab hôm nay? (phase nào, làm gì) | |
+| AI sai / hời hợt ở đâu? (lỗi cụ thể, không phải "AI ổn") | |
+| Tôi / nhóm phải sửa gì bằng tay? | |
+| Nếu làm lại, tôi sẽ dùng AI khác đi như thế nào? | |
+
+## Tự chấm — I3 AI Support Log + Reflection (15 điểm)
+
 | Tiêu chí | Điểm tối đa | Cần có |
 |---|---:|---|
-| AI giúp gì | 4 | Nói rõ AI hỗ trợ phase nào |
-| AI sai ở đâu | 4 | Chỉ ra lỗi, thiếu, hoặc hallucination |
+| AI giúp gì | 4 | Nói rõ AI hỗ trợ phase nào, không chỉ "AI hỗ trợ tốt" |
+| AI sai ở đâu | 4 | Chỉ ra lỗi, thiếu, hoặc hallucination cụ thể |
 | Tôi sửa gì | 4 | Có human correction cụ thể |
 | Reflection quality | 3 | Nói được bài học và nếu làm lại sẽ đổi gì |
 
 ### Checklist tự kiểm tra
-- [ ] Tôi ghi rõ AI giúp ở đâu, không viết chung chung “AI hỗ trợ tốt”
+- [ ] Tôi ghi rõ AI giúp ở đâu, không viết chung chung "AI hỗ trợ tốt"
 - [ ] Tôi ghi rõ AI sai/hời hợt ở đâu
 - [ ] Tôi ghi rõ mình/nhóm đã sửa gì bằng tay
-- [ ] Reflection trung thực, không “tô hồng” việc dùng AI
+- [ ] Reflection trung thực, không "tô hồng" việc dùng AI
 
 ---
 
-## 5. Cách tính điểm cuối cùng
+## Điều gì làm bài được điểm cao?
 
-### Bước 1 — Tính điểm nhóm
-- G1 + G2 + G3 + G4 = **60 điểm**
-
-### Bước 2 — Tính điểm cá nhân
-- I1 + I2 + I3 = **40 điểm**
-
-### Bước 3 — Cộng điểm
-- **Final = Group Score (60) + Individual Score (40)**
-
----
-
-## 6. Điều gì làm bài được điểm cao?
-
-- Chọn **đúng bài toán**, không chọn bài “ngầu” nhưng mơ hồ
-- Biết nói **“chưa cần AI”** hoặc **“rule đủ rồi”** khi phù hợp
-- Metric đủ rõ để người khác thấy “thành công” là gì
+- Chọn **đúng bài toán**, không chọn bài "ngầu" nhưng mơ hồ
+- Biết nói **"chưa cần AI"** hoặc **"rule đủ rồi"** khi phù hợp
+- Metric đủ rõ để người khác thấy "thành công" là gì
 - Boundary đủ rõ để biết AI **được phép làm gì / không được phép làm gì**
 - Reflection trung thực về chỗ AI hữu ích và chỗ AI gây hại
 
----
-
-## 7. Điều gì thường làm mất điểm?
+## Điều gì thường làm mất điểm?
 
 - Chỉ liệt kê pain chung chung, không ra được workflow
-- Metric kiểu “nhanh hơn / tốt hơn / user thích hơn”
+- Metric kiểu "nhanh hơn / tốt hơn / user thích hơn"
 - Mặc định chọn Agent mà không justify
 - Không có fallback nếu AI sai
-- AI Support Log (log Phase 6 — Reflection) kiểu copy-paste, không phản ánh gì thật
+- 03-ai-log.md kiểu copy-paste, không phản ánh gì thật
 
 ---
 
-**Bản v2 này dùng để học viên tự kiểm tra chất lượng bài làm trước khi nộp.**
+*Bản v2 — VinUni A20 AI Thực Chiến — Ngày 2*
