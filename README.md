@@ -86,7 +86,7 @@ Phase 6  REFLECTION             10 min   Cá nhân: AI Support Log + reflection
 
 ## Deliverables học viên
 
-Mỗi người nộp 1 zip: `HoTen-day02.zip`
+Mỗi người nộp 1 zip: `MaHocVien-HoTen-day02.zip`
 
 | File | Loại | Mô tả |
 |------|------|-------|

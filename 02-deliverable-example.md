@@ -554,7 +554,7 @@ Nó chưa chắc tuyệt đối xuất sắc vì vẫn còn một số assumptio
 # Hướng dẫn nộp bài
 
 ```text
-HoTen-day02.zip
+MaHocVien-HoTen-day02.zip
 ├── 01-problem-scan.md
 ├── 02-deep-dive-report.md
 ├── 03-ai-log.md          ← log Phase 6 Reflection
